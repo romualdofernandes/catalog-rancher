@@ -1,4 +1,6 @@
-name: "Docker"
-description: "Minimal Docker Go App"
-version: 0.1-rancher1
-category: Test
+name: DockerGO
+description: |
+  Small Image Docker Go Web.
+version: v0.1
+category: Web
+maintainer: Romualdo Fernandes <romualdofernandes@gmail.com>
