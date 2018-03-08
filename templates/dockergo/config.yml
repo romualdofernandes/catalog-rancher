@@ -1,6 +1,6 @@
 name: DockerGO
 description: |
   Small Image Docker Go Web.
-version: v0.1
+version: v0.6.0-rancher1
 category: Web
 maintainer: Romualdo Fernandes <romualdofernandes@gmail.com>
