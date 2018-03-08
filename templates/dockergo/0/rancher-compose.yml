@@ -1,4 +1,9 @@
 version: '2'
+catalog:
+  name: DockerGo
+  version: 0.0.1
+  description: |
+    DockerGo
 services:
   dockergo:
     scale: 2
