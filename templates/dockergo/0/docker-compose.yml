@@ -5,7 +5,7 @@ services:
     stdin_open: true
     tty: true
     labels:
-      traefik.frontend.rule: Host:dockergo.romualdo.com.br
+      traefik.frontend.rule: Host:${HOST_RULE}
       traefik.port: '8080'
       traefik.enable: 'true'
       io.rancher.container.pull_image: always
