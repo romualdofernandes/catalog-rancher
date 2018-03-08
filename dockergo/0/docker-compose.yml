@@ -1,0 +1,11 @@
+version: '2'
+services:
+  dockergo:
+    image: romualdo/dockergo
+    stdin_open: true
+    tty: true
+    labels:
+      traefik.frontend.rule: Host:dockergo.romualdo.com.br
+      traefik.port: '8080'
+      traefik.enable: 'true'
+      io.rancher.container.pull_image: always
