@@ -8,5 +8,5 @@ services:
       traefik.frontend.rule: Host:${HOST_RULE}
       traefik.port: '8080'
       traefik.enable: 'true'
-      traefik.frontend.redirect.entryPoint=https
+      traefik.frontend.redirect.entryPoint: https
       io.rancher.container.pull_image: always
