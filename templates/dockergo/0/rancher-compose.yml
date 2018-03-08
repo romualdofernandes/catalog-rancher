@@ -4,6 +4,7 @@ catalog:
   version: 0.0.1
   description: |
     DockerGo
+  questions:
     - variable: "HOST_RULE"
       description: "Frontend Rule traefik host"
       label: "Host Frontend"
